@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'iconfont';  /* project id 239761 */
+  src: url('http://at.alicdn.com/t/font_ewhjk8w3cae89f6r.eot');
+  src: url('http://at.alicdn.com/t/font_ewhjk8w3cae89f6r.eot?#iefix') format('embedded-opentype'),
+  url('http:/at.alicdn.com/t/font_ewhjk8w3cae89f6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_ewhjk8w3cae89f6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_ewhjk8w3cae89f6r.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:50px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tubiao23:before { content: "\e6f8"; }
+
+.icon-jiahao:before { content: "\e6c8"; }
+
+.icon-cart:before { content: "\e698"; }
+
+.icon-favorite:before { content: "\e6a0"; }
+
+.icon-electronics:before { content: "\e6da"; }
+
+.icon-github:before { content: "\eaf6"; }
+
+.icon-niao:before { content: "\e662"; }
+
+.icon-f:before { content: "\e6c9"; }
+
+.icon-qiwen-:before { content: "\e6b2"; }
+
