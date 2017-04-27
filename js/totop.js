@@ -1,4 +1,6 @@
-define(['jquery'], function ($) {
+define(function (require) {
+    function GoTop(){
+$ = require('../lib/jquery-3.2.0')
     var $top = $('.totop')
     $(window).on('scroll', function () {
         var scrollTop = $(window).scrollTop();
@@ -13,5 +15,8 @@ define(['jquery'], function ($) {
         }
         
     })
+    }
+    
+    module.exports = GoTop;
 
 })

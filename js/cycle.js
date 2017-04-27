@@ -1,5 +1,5 @@
-define(['jquery'], function ($) {
-    
+define(function (require) {
+    $ = require('../lib/jquery-3.2.0')
     function Cycle() {
         var $cycle = $('.head-img');
         var $btnNext = $('.btn.next');
@@ -105,6 +105,6 @@ define(['jquery'], function ($) {
             clearInterval(timer)
         }
     }
-    return Cycle;
+    module.exports = Cycle;
 
 })

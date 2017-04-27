@@ -1,5 +1,7 @@
 
-define(['jquery'], function ($) {
+define(function (require) {
+    function Title() {
+$ = require('../lib/jquery-3.2.0')
     //判断p(加载数据)是否一出现在可视范围
     function isVisible($node) {
         var windowHeight = $(window).outerHeight(true);
@@ -42,4 +44,6 @@ define(['jquery'], function ($) {
         }
 
     })
+    }
+    module.exports = Title;
 })
