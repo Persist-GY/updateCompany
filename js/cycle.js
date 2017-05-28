@@ -10,7 +10,17 @@ define(function (require) {
         var timer;
         var clearTimer;
         var windowW = $(window).outerWidth(true)
-        console.log(windowW)
+        var $li = $('.head>.head-img>li')
+        
+        //当窗口size变化时，改变轮播size
+        $(window).on('resize',function(){
+            clearIn()
+            windowW = $(window).outerWidth(true)
+            $cycle.css('left', '-'+windowW+'px')
+            currentPage = 0
+            pageControll()
+            setIn()
+        })
         //开始计时
         setIn();
         //点击下一张
